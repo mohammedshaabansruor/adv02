@@ -296,12 +296,19 @@ namespace adv02
             #endregion
 
             #region Q13
-            Hashtable hashtable = new Hashtable();
-            hashtable.Add("A", 1);
-            hashtable.Add("B", 2);
-            hashtable.Add("C", 3);
-            object MaxValueKey = FindKeyWithHigestValue(hashtable);
-            Console.WriteLine($"key of max value is :{MaxValueKey}");
+            //Hashtable hashtable = new Hashtable();
+            //hashtable.Add("A", 1);
+            //hashtable.Add("B", 2);
+            //hashtable.Add("C", 3);
+            //object MaxValueKey = FindKeyWithHigestValue(hashtable);
+            //Console.WriteLine($"key of max value is :{MaxValueKey}");
+            #endregion
+
+            #region Q16
+            int[] arr = { 1, 2, 3, 5, 3 };
+            //CheckDoublecations (arr);
+            Console.WriteLine(CheckDoublecations(arr));
+
             #endregion
         }
 
