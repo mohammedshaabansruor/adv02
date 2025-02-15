@@ -216,20 +216,25 @@ namespace adv02
             #endregion
 
             #region Q03
-            Queue<int> queue = new Queue<int>();
-            queue.Enqueue(1);
-            queue.Enqueue(2);
-            queue.Enqueue(3);
-            queue.Enqueue(4);
+            //Queue<int> queue = new Queue<int>();
+            //queue.Enqueue(1);
+            //queue.Enqueue(2);
+            //queue.Enqueue(3);
+            //queue.Enqueue(4);
 
-            Console.WriteLine("Original Queue: " + string.Join(", ", queue));
+            //Console.WriteLine("Original Queue: " + string.Join(", ", queue));
 
-            ReverseQueue(queue);
+            //ReverseQueue(queue);
 
-            Console.WriteLine("Reversed Queue: " + string.Join(", ", queue));
+            //Console.WriteLine("Reversed Queue: " + string.Join(", ", queue));
 
 
 
+            #endregion
+
+            #region Q04
+            string str = "[()]{}";
+            Console.WriteLine(IsBalanced(str) ? "true" : "false");
             #endregion
         }
     }
