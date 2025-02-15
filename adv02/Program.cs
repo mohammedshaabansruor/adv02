@@ -254,10 +254,23 @@ namespace adv02
             #endregion
 
             #region Q07
-            Queue queue = new Queue();
-            queue.Enqueue(1);
-            queue.Enqueue("Apple");
-            queue.Enqueue(5.28);
+            //Queue queue = new Queue();
+            //queue.Enqueue(1);
+            //queue.Enqueue("Apple");
+            //queue.Enqueue(5.28);
+            #endregion
+
+            #region Q08
+            Stack<int> Numbers = new Stack<int>();
+            Numbers.Push(0);
+            Numbers.Push(1);
+            Numbers.Push(2);
+            Numbers.Push(3);
+            Numbers.Push(4);
+            Numbers.Push(5);
+            FindElementInStack(Numbers, 4);
+
+
             #endregion
         }
 
