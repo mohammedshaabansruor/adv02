@@ -233,8 +233,14 @@ namespace adv02
             #endregion
 
             #region Q04
-            string str = "[()]{}";
-            Console.WriteLine(IsBalanced(str) ? "true" : "false");
+            //string str = "[()]{}";
+            //Console.WriteLine(IsBalanced(str) ? "true" : "false");
+            #endregion
+
+            #region Q05
+            int[] Numbers = { 1, 3, 2, 3, 1 };
+            int[] result = RemoveDuplicates(Numbers);
+            Console.WriteLine(string.Join(", ", result));
             #endregion
         }
     }
