@@ -273,14 +273,21 @@ namespace adv02
 
             #endregion
 
-
             #region Q09
-            int[] arr01 = { 1, 2, 3, 4, 5, };
-            int[] arr02 = { 2, 4, 6, 8 };
-            List<int> result = FindIntersection(arr01, arr02);
-            foreach (int item in result)
-                Console.Write($"{item},");
+            //int[] arr01 = { 1, 2, 3, 4, 5, };
+            //int[] arr02 = { 2, 4, 6, 8 };
+            //List<int> result = FindIntersection(arr01, arr02);
+            //foreach (int item in result)
+            //    Console.Write($"{item},");
 
+            #endregion
+
+            #region Q11
+            Queue<int> queue = new Queue<int>(new[] { 1, 2, 3, 4, 5, 6 });
+            int K = 4;
+            ReverseKElements(queue, K);
+            foreach (int i in queue)
+                Console.Write($"{i},");
             #endregion
         }
 
