@@ -244,13 +244,20 @@ namespace adv02
             #endregion
 
             #region Q06
-            ArrayList list = new ArrayList() { 1, 2, 3, 4, 5 };
-            RemoveOddNumbers(ref list);
-            Console.WriteLine("List after removing items");
-            foreach (int item in list)
-                Console.Write($" {item} ,");
+            //ArrayList list = new ArrayList() { 1, 2, 3, 4, 5 };
+            //RemoveOddNumbers(ref list);
+            //Console.WriteLine("List after removing items");
+            //foreach (int item in list)
+            //    Console.Write($" {item} ,");
 
 
+            #endregion
+
+            #region Q07
+            Queue queue = new Queue();
+            queue.Enqueue(1);
+            queue.Enqueue("Apple");
+            queue.Enqueue(5.28);
             #endregion
         }
 
